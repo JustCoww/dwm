@@ -10,7 +10,8 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=14:antialias=true"};
+static const char *fonts[]          = { "FiraMono-Regular:size=14:antialias=true",
+					"JetBrainsMono Nerd Font:size=12:antialias=true"};
 #include "themes/bubblegum.h"
 
 /* Colors */
